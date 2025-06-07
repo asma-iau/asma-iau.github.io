@@ -1,52 +1,27 @@
 <!DOCTYPE html>
 <html lang=en>
 
-    <!-- This is a free layout for anyone to use!
-    All I ask is that you keep this credit in-tact, or that you put my website link
-    (https://nonkiru.art) somewhere on your site. 
+    <head>
 
-    Otherwise, edit this as much as you'd like! 
-
-    Last Updated: 8th December 2024 -->
-
-<head>
-
-    <!-- These are tags for how the embded will look. -->
     <meta property="og:title" content="Website Title">
     <meta name="twitter:title" content="Website Title (For Twitter)">
-    <!-- Update the image here with your embed! -->
     <meta property="og:image" content="embed_image.png">
-    <!-- Image here, too! -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="description" content="Description of your website.">
     <meta name="keywords" content="Keywords for your website.">
     <meta name="author" content="Name of who made this website.">
     <meta name="twitter:description" content="Description of your website (For Twitter).">
-    <!-- Change the colour code to match your website. -->
     <meta content="#ffffff " data-react-helmet="true" name="theme-color">
 
-    <!-- Various other website settings. -->
-    <!-- Keep this in-tact if you want to use unicode in text without it breaking. You shouldn't need to change this. -->
     <meta charset="utf-8">
-    <!-- For setting the viewport for different screen sizes. You shouldn't need to change this. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- If you change the name of the stylesheet, make sure to reflect it here. -->
     <link rel="stylesheet" href="cheesecake_style.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.gif">
     <title>Cheesecake</title>
 
-    <!-- JQuery scripts. These are required for the draggable divs. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous"></script></script>
     
-    <!-- If you want to add more draggable options, you need to add it here.
-    To add another option, copy paste the following, and add it to the list:
-
-         $( function() {
-            $( "#CHANGETHIS" ).draggable();
-        });
-
-    The id must be unique!-->
     <script>
 
         $( function() {
@@ -62,12 +37,8 @@
         });
 
         $( function() {
-            $( "#drag4" ).draggable();
+            $( "#drag5" ).draggable();
         });
-
-        // $( function() {
-            // $( "#Remove // before use, and make sure to change this id!" ).draggable();
-        // });
 
     </script>
 
@@ -76,19 +47,16 @@
 <body>
     
     <div class="container" id="drag1">
-        <!-- Header -->
         <div class="box_header">
             <header>
                 <img style="float: left;" src="img\domoooo333.gif" alt="">
                 &nbsp;meow
-                <!-- These are the fake buttons at the end of the header. -->
                 <img style="float: right;" src="img/button_3.gif" alt="">
                 <img style="float: right;" src="img/button_2.gif" alt="">
                 <img style="float: right;" src="img/button_1.gif" alt="">
             </header>
         </div>
 
-        <!-- Main Content -->
         <div class="box">
             <main>
                 <h1>Welcome!</h1>
@@ -108,12 +76,10 @@
     </div>
 
     <div class="container" id="drag2">
-        <!-- Header -->
         <div class="box_header">
             <header>
                 <img style="float: left;" src="img\domooom2222.gif" alt="">
                 &nbsp;Links
-                <!-- These are the fake buttons at the end of the header. -->
                 <img style="float: right;" src="img/button_3.gif" alt="">
                 <img style="float: right;" src="img/button_2.gif" alt="">
                 <img style="float: right;" src="img/button_1.gif" alt="">
@@ -121,14 +87,11 @@
         </div>
         
 
-        <!--Links -->
         <div class="box">
             <nav>
-                <!-- Add as many links as you want here.
-                Just copy-paste: <a href="">Link 1</a> -->
                 <a href="https://www.instagram.com/grayflloyd/?utm_source=ig_web_button_share_sheet">insta</a> 
                 ☆ 
-                <a href="">Link 2</a> 
+                <a href="music.html">music</a> 
                 ☆ 
                 <a href="">Link 3</a> 
                 ☆ 
@@ -137,70 +100,19 @@
         </div>
     </div>
 
-    <!-- You can also make images draggable! -->
-    <!-- Please note that, if you place a draggable image within a div, things can get a bit wonky.
-    I'd suggest placing it outside of a div! -->
-    <img src="img/cheesecake_still.gif" id="drag3" alt="A cheesecake." 
+    <img src="img\ceilingcat.gif" id="drag3" alt="A cheesecake." 
     style="
     position: absolute; 
     top: 215px; 
     left: 1200px;
     cursor: move;">
-
-    <div class="container" id="drag4">
-        <!-- Header -->
-        <div class="box_header">
-            <header>
-                <img style="float: left;" src="img\DOMMOOOOO.gif" alt="">
-                &nbsp;MUSICAA
-                <!-- These are the fake buttons at the end of the header. -->
-                <img style="float: right;" src="img/button_3.gif" alt="">
-                <img style="float: right;" src="img/button_2.gif" alt="">
-                <img style="float: right;" src="img/button_1.gif" alt="">
-            </header>
-        </div>
-
-        <!--Links -->
-        <div class="box">
-            <section>
-
-                <!-- Header Example -->
-
-
-                <!-- Table Example -->
-
-       <!--          <tr>
-                        <td></td> date
-                        <td></td> song
-                     </tr>             -->
-                <table>
-                    <tr>
-                        <th>Date</th>   <!-- the date -->
-                        <th>The song/s of the day</th>   <!-- List Example -->
-                    </tr>
-                        <td>2/5/2025</td>
-                        <td><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/sa/album/deceptacon/1450117595?i=1450117596"></iframe></td>
-                    </tr>
-                    </tr>
-                    <td>5/6/2025</td>
-                    <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/bitter-sweet-symphony/1443258189"></iframe></td>
-                    </tr>
-                    <tr>
-                        <td>7/6/2025</td>
-                        <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/sa/song/comfortable-liar/270139032"></iframe></td>
-                    </tr>
-
-                </table>
-
-                <ul>
-                    my generes of choice:
-                    <li>metal</li>
-                    <li>shoegaze</li>
-                    <li>and everything in between</li>
-                </ul>
-
-            </section>
-        </div>
+    <img src="img\1742023949148689.gif" id="drag5" alt="A cheesecake." 
+    style="
+    position: absolute; 
+    top: 215px; 
+    left: 1200px;
+    cursor: move;">
+    
 
 </body>
 </html>
